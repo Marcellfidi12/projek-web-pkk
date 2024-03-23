@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design Product</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- mystyle -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Desain<span>Product</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#kontak">Kontak</a>
+        <a href="#price">List Harga</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="figma"><i data-feather="figma"></i></a>
+        <a href="#" id="shopping-bag"><i data-feather="shopping-bag"></i></a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Buatkan Desain Untuk <span>Produkmu</span></h1>
+        <p>
+          Percantik produkmu dengan memesan jasa desain produk dikami dengan
+          garansi 100% uang kembali!!!
+        </p>
+        <a href="https://wa.me/+62895372680852" class="cta">Pesan Desain</a>
+      </main>
+    </section>
+    <!-- hero section end -->
+
+    <!-- about start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="../img/animep.jpeg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih desain kami?</h3>
+          <p>
+            Jasa desain product di tempat kami dikerjakan oleh profesional
+            desain yang kurang lebih sudah memiliki pengalaman 1 Tahun dan sudah
+            mengerjakan berbagai pesanan desain product.
+          </p>
+          <p>
+            Ditempat kami menerapkan sistem dp dimana tidak perlu membayarnya
+            sepenuhnya terlebih dahulu hanya perlu membayar 20% terlebih dahulu
+            dan desain product dikami bergaransi selama 1bulan dari awal
+            pemesanan.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+
+    <!-- menu section start -->
+    <section id="price" class="menu">
+      <h2><span>List</span> Harga</h2>
+      <p>
+        Berikut list harga desain product diamana ada paket 1,paket 2 dan paket
+        3 dimana setiap paket berbeda.
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="../img/1.jpg" alt="Paket1" class="menu-card-img" />
+          <h3 class="menu-card-title">- Paket 1 -</h3>
+          <p class="menu-card-price">IDR 100K</p>
+        </div>
+        <div class="menu-card">
+          <img src="../img/1.jpg" alt="Paket1" class="menu-card-img" />
+          <h3 class="menu-card-title">- Paket 2 -</h3>
+          <p class="menu-card-price">IDR 150K</p>
+        </div>
+        <div class="menu-card">
+          <img src="../img/1.jpg" alt="Paket1" class="menu-card-img" />
+          <h3 class="menu-card-title">- Paket 3 -</h3>
+          <p class="menu-card-price">IDR 300K</p>
+        </div>
+      </div>
+    </section>
+    <!-- menu section end -->
+
+    <!-- kontak section start -->
+    <section id="kontak" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Berikut dibawah adalah from kontak kami jika ada pertanyaan tentang jasa
+        desain product di tempat kami.
+      </p>
+
+      <div class="row">
+        <form action="">
+          <div class="input-group">
+            <a><i data-feather="user"></i></a>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <a><i data-feather="mail"></i></a>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <a><i data-feather="phone"></i></a>
+            <input type="text" placeholder="telepon" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- kontak section end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="social">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#price">List Harga</a>
+        <a href="#kontak">Desain</a>
+      </div>
+
+      <div class="credit">
+        <p>
+          Created website by<a href="https://wa.me/+62895372680852"
+            >Marcell Fia Dinata</a
+          >. | &copy; 2023
+        </p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- feather icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- my js -->
+    <script src="script.js"></script>
+  </body>
+</html>
